@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="./survey_form.css" type="text/css">
+    <title>An Unconventional Survey</title>
+</head>
+<body>
+    <div class="headings">
+        <h1 id="title">How to Best Self-Improve:</h1>
+        <h2>An Unconventional Survey</h2>
+        <h3>Thanks to me for taking my time to help me improve myself</h3>
+    </div>
+    <div style='padding-top: 6px'></div>
+    <hr>
+    <div style='padding-top: 6px'></div>
+        <form action="" method="get" id="survey-form">
+            <div class="survey-row">
+                <label for="full-name">Name</label>
+                <input id="full-name" name="full-name" type="text" placeholder="human label here" size="14">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Non-tangible mail address here" size="27">
+                <label for="number">Age (that everyone thinks you are)</label>
+                <input id="number" name="age" type="number" min="-97" max="762" placeholder="any value from -97 to 762">
+            </div>
+            <div class="survey-row">
+                <label for="reason">Which option best describes your reason for self-improvement?</label>
+                <select id="reason" name="reason">
+                    <option value="lions">Too gullible to mountain lions</option>
+                    <option value="sand-castles">Need a few sand castle tutorials</option>
+                    <option value="salt">Own too many salt-shakers</option>
+                    <option value="savings">What is a savings account?</option>
+                    <option value="grand">Life is so grand already!</option>
+                </select>
+            </div>
+            <div class="survey-row">
+                <fieldset class="legacy-survey-row">
+                    <legend>Would you recommend self-improvement to a friend?</legend>
+                        <label for="recommend-1" class="recommend-label">Recommend</label>
+                        <input id="recommend-1" name="recommend" type="radio" value="recommend">
+                        <label for="recommend-2" class="recommend-label">Do not recommend</label>
+                        <input id="recommend-2" name="recommend" type="radio" value="do-not-recommend">
+                        <label for="recommend-3" class="recommend-label">No one ever changes</label>
+                        <input id="recommend-3" name="recommend" type="radio" value="no-one-ever-changes">
+                        <label for="recommend-4" class="recommend-label">All my friends are perfect</label>
+                        <input id="recommend-4" name="recommend" type="radio" value="all-my-friends-are-perfect">
+                </fieldset>
+            </div>
+            <div class="survey-row">
+                <span class="favorite">What is your favorite existing characteristic that you do not need to self-improve upon?</span>
+                <label for="favorite" class="favorite-label">How to parallel park</label>
+                <input id="favorite" name="favorite" type="checkbox" value="how-to-parallel-park">
+                <label for="favorite" class="favorite-label">Which family member to avoid making grumpy during family events</label>
+                <input id="favorite" name="favorite" type="checkbox" value="which-family-member-to-avoid-making-grumpy-during-family-events">
+                <label for="favorite" class="favorite-label">Sock style</label>
+                <input id="favorite" name="favorite" type="checkbox" value="sock-style">
+                <label for="favorite" class="favorite-label">Memorized the 13 times tables</label>
+                <input id="favorite" name="favorite" type="checkbox" value="memorized-the-13-times-tables">
+                <label for="favorite" class="favorite-label">Hair-braiding skills</label>
+                <input id="favorite" name="favorite" type="checkbox" value="hair-braiding-skills">
+                <label for="favorite" class="favorite-label">Ability to back away slowly</label>
+                <input id="favorite" name="favorite" type="checkbox" value="ability-to-back-away-slowly">
+            </div>
+            <div class="survey-row">
+                <label for="dream">Briefly describe your most recent dream. Does it indicate anything about self-improvement?</label>
+                <textarea id="dream" name="dream" rows="6" cols="40" placeholder="Write to your heart's desire &#10You can even resize this box!"></textarea>
+            </div>
+            <div class="survey-row">
+                <button type="submit">Submit...now!</button>
+            </div>
+
+
+            <div>
+                <a href="https://www.internetingishard.com/" target="_blank">Link to hover test</a>
+                <div class="button">button one</div>
+            </div>
+        </form>
+</body>
+</html>

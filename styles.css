@@ -1,0 +1,169 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body {
+    background: #f5eee0 url(./images/IMG_8560\ copy\ MH\ Scenery\ Flowers.JPG) no-repeat center center fixed; /*this blends background-color + background-image properties*/
+    width: 100%;
+    color: #6f6f6f;
+    font-family: calibri, monospace;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}
+
+h1, h2, h3 {
+    font-family: calibri, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+h2 {
+    color: rgb(230, 238, 242);
+    font-size: 32px;
+    text-align: center;
+}
+
+h3 {
+    color: oldlace;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0 auto 12px auto;
+}
+
+hr {
+    color: oldlace;
+    width: 703.5px;
+}
+
+label {
+    color: oldlace;
+}
+
+input {
+    border-width: 4px;
+}
+
+input[type='number'] {
+    width: 184px;
+}
+
+p {
+    line-height: 24px;
+    margin: 0 auto;
+    color: oldlace;
+    font-size: 15px;
+}
+
+label[type='radio'] {
+    vertical-align: middle;
+}
+/*trying to align radio and checkbox buttons with their text - above and below*/
+label[type='checkbox'] {
+    vertical-align: middle;
+}
+
+input, select, textarea {
+    background-color: oldlace;
+    border-color: oldlace;
+    font-size: 15px;
+    font-family: calibri;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    text-align: center;
+    border-width: 9px;
+    border-color: #3a78be;
+    border-style: ridge;
+    font-family: calibri, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.headings {
+    background-color: rgba(245, 163, 223, 0.37);
+    width: 768px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: auto;
+    padding-bottom: 20px;
+}
+
+#title {
+    color: rgba(246, 246, 160, 0.942);
+    text-shadow: #212a2d;
+    text-align: center;
+    margin: 32px;
+    padding: 12px, auto, 0, auto;
+}
+
+#survey-form {
+    background-color: rgb(11, 90, 11, 0.54);
+    filter: blur(0.9);
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    padding: 32px;
+    width: 703.5px;
+    line-height: 45px;
+}
+
+#survey-form {
+
+}
+
+.placeholder {
+    font-family: calibri;
+    font-size: 15px;
+}
+
+#drop-down {
+
+}
+
+/*tests below*/
+
+a {
+    color: oldlace;
+}
+
+a:link {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: wavy;
+}
+
+a:active{
+    color: lightskyblue;
+}
+
+.button {
+    color: oldlace;
+}
+
+.button:hover {
+    color: greenyellow
+}
